@@ -11,7 +11,7 @@ let highestScore = 0;
 document.addEventListener("keypress",function(){
     if(started==false){
         reset();
-        console.log("Game Started");
+        // console.log("Game Started");
         started = true;
         levelUp();
     }
